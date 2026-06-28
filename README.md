@@ -1,6 +1,6 @@
 <div align="center">
 
-# JS Mini Projects Collection
+# JS Projects Collection
 
 ### 10 interactive JavaScript applications exploring APIs, the DOM, and browser features
 
@@ -17,7 +17,7 @@
 
 ## Overview
 
-A portfolio collection of **10 vanilla JavaScript mini-projects** — built without frameworks or libraries. Each project is a self-contained application focused on a specific concept, from consuming third-party APIs to working with native browser features and the DOM.
+A portfolio collection of **10 vanilla JavaScript projects** — built without frameworks or libraries. Each project is a self-contained application focused on a specific concept, from consuming third-party APIs to working with native browser features and the DOM.
 
 ## Projects
 
@@ -45,33 +45,6 @@ A portfolio collection of **10 vanilla JavaScript mini-projects** — built with
   - [QR Server API](https://goqr.me/api/) — QR code generation
   - [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) — text-to-speech synthesis
 
-## Folder Structure
-
-```
-js-projects/
-├── weather-app/
-│   └── index.html
-├── to-do-list-app/
-│   └── index.html
-├── quiz-app/
-│   └── index.html
-├── password-generator/
-│   └── index.html
-├── form-validation/
-│   └── index.html
-├── cryptocurrency-website/
-│   └── index.html
-├── qr-code-generator/
-│   └── index.html
-├── text-to-speech-converter/
-│   └── index.html
-├── drag-and-drop/
-│   └── index.html
-├── dark-mode-toggle/
-│   └── index.html
-└── README.md
-```
-
 ## Running Locally
 
 ```bash
@@ -98,7 +71,7 @@ No build step or dependencies required — each project runs directly in the bro
 
 ## Author
 
-**Aliza Tariq** — BSCS student, GSSoC 2026 contributor, Dev Weekend Fellow
+**Aliza Tariq** — 
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aliza-dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aliza-tariq-dev/)
