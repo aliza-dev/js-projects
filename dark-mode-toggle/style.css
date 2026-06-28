@@ -1,0 +1,144 @@
+:root {
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+}
+
+.dark-theme {
+    --primary-color: #000106;
+    --secondary-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    transition: background 0.8s, color 0.8s;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 8%;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+    color: #ff3d00;
+    cursor: pointer;
+}
+
+nav ul {
+    flex: 1;
+    text-align: right;
+    padding-right: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+#icon {
+    width: 25px;
+    cursor: pointer;
+}
+
+.hero-wrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-bottom: 60px;
+}
+
+.content {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.content h1 span {
+    color: #ff3d00;
+}
+
+.content p {
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.image-wrap {
+    flex: 1;
+    min-width: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blob {
+    position: absolute;
+    width: 420px;
+    height: 460px;
+    background: linear-gradient(135deg, #ff8a00, #ff3d00);
+    border-radius: 73% 27% 64% 36% / 48% 41% 59% 52%;
+    transform: rotate(-8deg);
+    z-index: 1;
+}
+
+.image-wrap img {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .blob {
+        width: 300px;
+        height: 340px;
+    }
+    .image-wrap img {
+        max-width: 280px;
+    }
+}
