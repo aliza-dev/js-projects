@@ -6,86 +6,88 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div class="terminal">
-        <div class="terminal-bar">
-            <span class="dot dot-red"></span>
-            <span class="dot dot-yellow"></span>
-            <span class="dot dot-green"></span>
-            <span class="terminal-title">aliza@dev — js-mini-projects</span>
-        </div>
-        <div class="terminal-body">
-            <p class="line"><span class="prompt">$</span> ls projects/</p>
-            <p class="line muted">10 entries found</p>
-            <p class="line"><span class="prompt">$</span> <span class="cursor">_</span></p>
-        </div>
+    <div class="header">
+        <span class="badge">10 Projects • Vanilla JavaScript</span>
+        <h1>My JavaScript Mini Projects</h1>
+        <p>A hands-on collection exploring APIs, DOM manipulation, and browser features</p>
     </div>
 
     <div class="grid">
 
-        <div class="file-card">
-            <p class="filename">weather-app.js</p>
-            <p class="comment">// real-time weather data using the OpenWeather API</p>
-            <a href="weather-app/index.html" class="open-btn">open project →</a>
+        <div class="card" style="--accent:#3b82f6;">
+            <div class="icon">🌦️</div>
+            <h2>Weather App</h2>
+            <p>Real-time weather data using OpenWeather API</p>
+            <a href="weather-app/index.html" class="btn">View Project</a>
         </div>
 
-        <div class="file-card">
-            <p class="filename">to-do-list.js</p>
-            <p class="comment">// add, complete, and delete tasks with local storage</p>
-            <a href="to-do-list-app/index.html" class="open-btn">open project →</a>
+        <div class="card" style="--accent:#10b981;">
+            <div class="icon">✅</div>
+            <h2>To-Do List App</h2>
+            <p>Add, complete, and delete tasks with local storage</p>
+            <a href="to-do-list-app/index.html" class="btn">View Project</a>
         </div>
 
-        <div class="file-card">
-            <p class="filename">quiz-app.js</p>
-            <p class="comment">// interactive quiz with score tracking and feedback</p>
-            <a href="quiz-app/index.html" class="open-btn">open project →</a>
+        <div class="card" style="--accent:#8b5cf6;">
+            <div class="icon">🧠</div>
+            <h2>Quiz App</h2>
+            <p>Interactive quiz with score tracking and instant feedback</p>
+            <a href="quiz-app/index.html" class="btn">View Project</a>
         </div>
 
-        <div class="file-card">
-            <p class="filename">password-generator.js</p>
-            <p class="comment">// generate secure passwords and copy instantly</p>
-            <a href="password-generator/index.html" class="open-btn">open project →</a>
+        <div class="card" style="--accent:#ef4444;">
+            <div class="icon">🔐</div>
+            <h2>Password Generator</h2>
+            <p>Generate secure random passwords with one click and copy instantly</p>
+            <a href="password-generator/index.html" class="btn">View Project</a>
         </div>
 
-        <div class="file-card">
-            <p class="filename">form-validation.js</p>
-            <p class="comment">// real-time validation for name, phone, email, message</p>
-            <a href="form-validation/index.html" class="open-btn">open project →</a>
+        <div class="card" style="--accent:#f59e0b;">
+            <div class="icon">📝</div>
+            <h2>Form Validation</h2>
+            <p>Real-time form validation with error messages for name, phone, email, and message fields</p>
+            <a href="form-validation/index.html" class="btn">View Project</a>
         </div>
 
-        <div class="file-card">
-            <p class="filename">crypto-tracker.js</p>
-            <p class="comment">// live BTC, ETH, DOGE prices via the CoinGecko API</p>
-            <a href="cryptocurrency-website/index.html" class="open-btn">open project →</a>
+        <div class="card" style="--accent:#eab308;">
+            <div class="icon">💰</div>
+            <h2>Cryptocurrency Website</h2>
+            <p>Real-time crypto prices for Bitcoin, Ethereum, and Dogecoin using CoinGecko API</p>
+            <a href="cryptocurrency-website/index.html" class="btn">View Project</a>
         </div>
 
-        <div class="file-card">
-            <p class="filename">qr-generator.js</p>
-            <p class="comment">// generate QR codes for any text, link, or contact info</p>
-            <a href="qr-code-generator/index.html" class="open-btn">open project →</a>
+        <div class="card" style="--accent:#06b6d4;">
+            <div class="icon">📱</div>
+            <h2>QR Code Generator</h2>
+            <p>Generate QR codes instantly for any text, link, or contact info using API</p>
+            <a href="qr-code-generator/index.html" class="btn">View Project</a>
         </div>
 
-        <div class="file-card">
-            <p class="filename">text-to-speech.js</p>
-            <p class="comment">// converts typed text into spoken audio with voice options</p>
-            <a href="text-to-speech-converter/index.html" class="open-btn">open project →</a>
+        <div class="card" style="--accent:#ec4899;">
+            <div class="icon">🔊</div>
+            <h2>Text To Speech Converter</h2>
+            <p>Convert typed text into spoken audio with voice selection using the browser's Web Speech API</p>
+            <a href="text-to-speech-converter/index.html" class="btn">View Project</a>
         </div>
 
-        <div class="file-card">
-            <p class="filename">drag-and-drop.js</p>
-            <p class="comment">// interactive drag interface using native HTML5 events</p>
-            <a href="drag-and-drop/index.html" class="open-btn">open project →</a>
+        <div class="card" style="--accent:#6366f1;">
+            <div class="icon">🖱️</div>
+            <h2>Drag & Drop</h2>
+            <p>Interactive drag-and-drop interface using native HTML5 drag events</p>
+            <a href="drag-and-drop/index.html" class="btn">View Project</a>
         </div>
 
-        <div class="file-card">
-            <p class="filename">dark-mode-toggle.js</p>
-            <p class="comment">// switch themes, saved with localStorage</p>
-            <a href="dark-mode-toggle/index.html" class="open-btn">open project →</a>
+        <div class="card" style="--accent:#a78bfa;">
+            <div class="icon">🌙</div>
+            <h2>Dark Mode Toggle</h2>
+            <p>Switch between light and dark themes with preference saved using localStorage</p>
+            <a href="dark-mode-toggle/index.html" class="btn">View Project</a>
         </div>
 
     </div>
 
-    <p class="footer-line"><span class="prompt">$</span> echo "built with vanilla js" <span class="muted">// aliza-dev</span></p>
-
+    <div class="footer">
+        <p>Built with HTML, CSS & JavaScript</p>
+    </div>
 </body>
 </html>
